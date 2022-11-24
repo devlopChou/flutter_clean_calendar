@@ -149,10 +149,10 @@ class _CalendarState extends State<Calendar> {
             _firstDayOfWeek(_selectedDate), _lastDayOfWeek(_selectedDate))
         .toList();
     initializeDateFormatting(widget.locale, null).then((_) => setState(() {
-          var monthFormat =
-              DateFormat('MMMM yyyy', widget.locale).format(_selectedDate);
-          displayMonth =
-              '${monthFormat[0].toUpperCase()}${monthFormat.substring(1)}';
+          var monthFormat = '111';
+          // DateFormat('MMMM yyyy', widget.locale).format(_selectedDate);
+          displayMonth = '222';
+          //'${monthFormat[0].toUpperCase()}${monthFormat.substring(1)}';
         }));
     _selectedEvents = widget.events?[DateTime(
             _selectedDate.year, _selectedDate.month, _selectedDate.day)] ??
