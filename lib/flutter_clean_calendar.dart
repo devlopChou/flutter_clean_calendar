@@ -110,7 +110,7 @@ class Calendar extends StatefulWidget {
     this.hideArrows: false,
     this.selectedColor,
     this.todayColor,
-    this.todayButtonText: 'Today',
+    this.todayButtonText: '123',
     this.eventColor,
     this.eventDoneColor,
     this.initialDate,
